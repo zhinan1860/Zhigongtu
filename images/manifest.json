@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 719,
+    "id" : "https://zhinan1860.github.io/Zhigongtu/images/2-#BS/canvas/",
+    "label" : {
+      "none" : [ "2-#BS" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://zhinan1860.github.io/Zhigongtu/images/2-#BS/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://zhinan1860.github.io/Zhigongtu/images/2-#BS/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 23,
+              "height" : 47
+            }, {
+              "width" : 45,
+              "height" : 94
+            }, {
+              "width" : 90,
+              "height" : 188
+            }, {
+              "width" : 180,
+              "height" : 375
+            }, {
+              "width" : 360,
+              "height" : 750
+            }, {
+              "width" : 719,
+              "height" : 1500
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 719,
+            "@id" : "https://zhinan1860.github.io/Zhigongtu/images/2-#BS",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1500
+          } ],
+          "format" : "image/jpeg",
+          "width" : 719,
+          "id" : "https://zhinan1860.github.io/Zhigongtu/images/2-#BS/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1500
+        },
+        "target" : "https://zhinan1860.github.io/Zhigongtu/images/2-#BS/canvas/"
+      } ]
+    } ],
+    "height" : 1500
+  }, {
     "width" : 1021,
     "id" : "https://zhinan1860.github.io/Zhigongtu/images/1-#HG/canvas/",
     "label" : {
