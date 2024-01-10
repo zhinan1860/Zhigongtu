@@ -1,0 +1,66 @@
+{
+  "id" : "https://zhinan1860.github.io/Zhigongtu/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in zhinan1860/Zhigongtu project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1021,
+    "id" : "https://zhinan1860.github.io/Zhigongtu/images/1-#HG/canvas/",
+    "label" : {
+      "none" : [ "1-#HG" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://zhinan1860.github.io/Zhigongtu/images/1-#HG/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://zhinan1860.github.io/Zhigongtu/images/1-#HG/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 32,
+              "height" : 47
+            }, {
+              "width" : 64,
+              "height" : 94
+            }, {
+              "width" : 128,
+              "height" : 188
+            }, {
+              "width" : 256,
+              "height" : 375
+            }, {
+              "width" : 511,
+              "height" : 750
+            }, {
+              "width" : 1021,
+              "height" : 1500
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1021,
+            "@id" : "https://zhinan1860.github.io/Zhigongtu/images/1-#HG",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1500
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1021,
+          "id" : "https://zhinan1860.github.io/Zhigongtu/images/1-#HG/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1500
+        },
+        "target" : "https://zhinan1860.github.io/Zhigongtu/images/1-#HG/canvas/"
+      } ]
+    } ],
+    "height" : 1500
+  } ]
+}
